@@ -315,6 +315,13 @@ android {
         }
     }
 
+    sourceSets {
+        // Add sourceSets for `release` version when building `nightly`
+        nightly {
+            java.srcDirs += "src/release/java"
+        }
+    }
+
     lintOptions {
         lintConfig file("../tools/lint/lint.xml")
 
