@@ -3,6 +3,23 @@
 
     <application android:name="im.vector.app.VectorApplication">
 
+        <!-- Activity alias for the launcher Activity (must be declared after the Activity it targets) -->
+        <!-- exported="true" is required to launch application -->
+        <activity-alias
+            android:name=".features.Alias"
+            android:exported="true"
+            android:targetActivity="im.vector.app.features.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity-alias>
+
         <!-- Firebase components -->
         <meta-data
             android:name="firebase_analytics_collection_deactivated"

@@ -1,5 +1,5 @@
 /*
- * Copyright 2019 New Vector Ltd
+ * Copyright (c) 2022 New Vector Ltd
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,25 +14,10 @@
  * limitations under the License.
  */
 
-@file:Suppress("UNUSED_PARAMETER")
+package im.vector.app.features.navigation
 
-package im.vector.app.receivers
-
-import android.content.BroadcastReceiver
 import android.content.Context
-import android.content.Intent
-import android.content.IntentFilter
 
-/**
- * No Op version
- */
-class DebugReceiver : BroadcastReceiver() {
-
-    override fun onReceive(context: Context, intent: Intent) {
-        // No op
-    }
-
-    companion object {
-        fun getIntentFilter(context: Context) = IntentFilter()
-    }
+interface DebugNavigator {
+    fun openDebugMenu(context: Context)
 }
