@@ -68,25 +68,6 @@ android {
         }
     }
 
-    flavorDimensions "store"
-
-    productFlavors {
-        gplay {
-            dimension "store"
-            isDefault = true
-
-            buildConfigField "String", "SHORT_FLAVOR_DESCRIPTION", "\"G\""
-            buildConfigField "String", "FLAVOR_DESCRIPTION", "\"GooglePlay\""
-        }
-
-        fdroid {
-            dimension "store"
-
-            buildConfigField "String", "SHORT_FLAVOR_DESCRIPTION", "\"F\""
-            buildConfigField "String", "FLAVOR_DESCRIPTION", "\"FDroid\""
-        }
-    }
-
     compileOptions {
         sourceCompatibility versions.sourceCompat
         targetCompatibility versions.targetCompat
@@ -178,12 +159,6 @@ dependencies {
     implementation libs.airbnb.epoxyPaging
     api libs.airbnb.mavericks
 
-    // Nightly
-    // API-only library
-    gplayImplementation libs.google.appdistributionApi
-    // Full SDK implementation
-    gplayImplementation libs.google.appdistribution
-
     // Work
     api libs.androidx.work
 
@@ -251,15 +226,6 @@ dependencies {
 
     // UnifiedPush
     implementation 'com.github.UnifiedPush:android-connector:2.0.0'
-    // UnifiedPush gplay flavor only
-    gplayImplementation('com.github.UnifiedPush:android-embedded_fcm_distributor:2.1.1') {
-        exclude group: 'com.google.firebase', module: 'firebase-core'
-        exclude group: 'com.google.firebase', module: 'firebase-analytics'
-        exclude group: 'com.google.firebase', module: 'firebase-measurement-connector'
-    }
-
-    // OSS License, gplay flavor only
-    gplayImplementation 'com.google.android.gms:play-services-oss-licenses:17.0.0'
 
     implementation "androidx.emoji2:emoji2:1.1.0"
 
@@ -295,14 +261,12 @@ dependencies {
     implementation 'commons-codec:commons-codec:1.15'
 
     // MapTiler
-    fdroidApi(libs.maplibre.androidSdk) {
+    api(libs.maplibre.androidSdk) {
         exclude group: 'com.google.android.gms', module: 'play-services-location'
     }
-    fdroidApi(libs.maplibre.pluginAnnotation) {
+    api(libs.maplibre.pluginAnnotation) {
         exclude group: 'com.google.android.gms', module: 'play-services-location'
     }
-    gplayApi libs.maplibre.androidSdk
-    gplayApi libs.maplibre.pluginAnnotation
 
     // TESTS
     testImplementation libs.tests.junit
