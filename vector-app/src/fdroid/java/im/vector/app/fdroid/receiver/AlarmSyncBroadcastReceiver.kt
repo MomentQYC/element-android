@@ -16,6 +16,7 @@
 
 package im.vector.app.fdroid.receiver
 
+import android.annotation.SuppressLint
 import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.BroadcastReceiver
@@ -72,6 +73,7 @@ class AlarmSyncBroadcastReceiver : BroadcastReceiver() {
                 putExtra(SyncAndroidService.EXTRA_SESSION_ID, sessionId)
                 putExtra(SyncAndroidService.EXTRA_PERIODIC, true)
             }
+            @SuppressLint("WrongConstant")
             val pIntent = PendingIntent.getBroadcast(
                     context,
                     REQUEST_CODE,
@@ -90,6 +92,7 @@ class AlarmSyncBroadcastReceiver : BroadcastReceiver() {
         fun cancelAlarm(context: Context) {
             Timber.v("## Sync: Cancel alarm for background sync")
             val intent = Intent(context, AlarmSyncBroadcastReceiver::class.java)
+            @SuppressLint("WrongConstant")
             val pIntent = PendingIntent.getBroadcast(
                     context,
                     REQUEST_CODE,
