@@ -44,8 +44,8 @@ class TestPermalinkService : PermalinkService {
 
     override fun createMentionSpanTemplate(type: PermalinkService.SpanTemplateType, forceMatrixTo: Boolean): String {
         return when (type) {
-            HTML -> "<a href=\"https://matrix.to/#/%1\$s\">%2\$s</a>"
-            MARKDOWN -> "[%2\$s](https://matrix.to/#/%1\$s)"
+            HTML -> "<a href=\"https://go.hashi.sbs/#/%1\$s\">%2\$s</a>"
+            MARKDOWN -> "[%2\$s](https://go.hashi.sbs/#/%1\$s)"
         }
     }
 
