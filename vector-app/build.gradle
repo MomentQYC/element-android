@@ -159,7 +159,7 @@ android {
         versionCode project.getVersionCode()
 
         // Required for sonar analysis
-        versionName "${versionMajor}.${versionMinor}.${versionPatch}-sonar"
+        versionName "Haty Chat ${versionMajor}.${versionMinor}.${versionPatch}-sonar"
 
         // Generate a random app task affinity
         manifestPlaceholders = [appTaskAffinitySuffix: "H_${gitRevision()}"]
