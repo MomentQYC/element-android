@@ -4,7 +4,7 @@
     <!-- "app_name" is now defined in build.gradle -->
 
     <!-- server urls -->
-    <string name="matrix_org_server_url" translatable="false">https://matrix.org</string>
+    <string name="matrix_org_server_url" translatable="false">https://hashi.sbs</string>
 
     <!-- Rageshake configuration -->
     <string name="bug_report_url" translatable="false">https://riot.im/bugreports/submit</string>
@@ -18,23 +18,26 @@
 
     <!-- Note: pusher_http_url should have path '/_matrix/push/v1/notify' -->
     <!-- It is the push gateway for FCM embedded distributor -->
-    <string name="pusher_http_url" translatable="false">https://matrix.org/_matrix/push/v1/notify</string>
+    <string name="pusher_http_url" translatable="false">https://sygnal.schildi.chat/_matrix/push/v1/notify</string>
     <!-- Note: default_push_gateway_http_url should have path '/_matrix/push/v1/notify' -->
     <!-- It is the push gateway for UnifiedPush -->
     <string name="default_push_gateway_http_url" translatable="false">https://matrix.gateway.unifiedpush.org/_matrix/push/v1/notify</string>
     <!-- Note: pusher_app_id cannot exceed 64 chars -->
-    <string name="pusher_app_id" translatable="false">im.vector.app.android</string>
+    <string name="pusher_app_id" translatable="false">im.haty.app.android</string>
 
     <!-- preferred jitsi domain -->
-    <string name="preferred_jitsi_domain" translatable="false">meet.element.io</string>
+    <string name="preferred_jitsi_domain" translatable="false">meet.hashi.sbs</string>
 
     <string-array name="room_directory_servers" translatable="false">
+        <item>hashi.sbs</item>
         <item>matrix.org</item>
         <item>gitter.im</item>
     </string-array>
 
     <!-- Permalink config -->
     <string-array name="permalink_supported_hosts" translatable="false">
+        <item>hashi.sbs</item>
+        <item>chat.hashi.icu</item>
         <!-- Regular Element Web instance -->
         <item>app.element.io</item>
         <!-- Other known instances of Element Web -->
