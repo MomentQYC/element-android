@@ -18,7 +18,7 @@
 
     <!-- Note: pusher_http_url should have path '/_matrix/push/v1/notify' -->
     <!-- It is the push gateway for FCM embedded distributor -->
-    <string name="pusher_http_url" translatable="false">https://sygnal.schildi.chat/_matrix/push/v1/notify</string>
+    <string name="pusher_http_url" translatable="false">https://hatypush.hashi.sbs/_matrix/push/v1/notify</string>
     <!-- Note: default_push_gateway_http_url should have path '/_matrix/push/v1/notify' -->
     <!-- It is the push gateway for UnifiedPush -->
     <string name="default_push_gateway_http_url" translatable="false">https://matrix.gateway.unifiedpush.org/_matrix/push/v1/notify</string>
