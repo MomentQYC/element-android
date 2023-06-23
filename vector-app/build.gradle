@@ -137,7 +137,7 @@ project.android.buildTypes.all { buildType ->
 ext.abiVersionCodes = ["armeabi-v7a": 1, "arm64-v8a": 2, "x86": 3, "x86_64": 4].withDefault { 0 }
 
 android {
-    namespace "im.vector.application"
+    namespace "im.vickie.application"
     // Due to a bug introduced in Android gradle plugin 3.6.0, we have to specify the ndk version to use
     // Ref: https://issuetracker.google.com/issues/144111441
     ndkVersion "21.3.6528147"
@@ -145,7 +145,7 @@ android {
     compileSdk versions.compileSdk
 
     defaultConfig {
-        applicationId "im.haty.app"
+        applicationId "im.vickie.app"
         // Set to API 21: see #405
         minSdk versions.minSdk
         targetSdk versions.targetSdk
@@ -159,7 +159,7 @@ android {
         versionCode project.getVersionCode()
 
         // Required for sonar analysis
-        versionName "Haty Chat ${versionMajor}.${versionMinor}.${versionPatch}-sonar"
+        versionName "Vickie ${versionMajor}.${versionMinor}.${versionPatch}-sonar"
 
         // Generate a random app task affinity
         manifestPlaceholders = [appTaskAffinitySuffix: "H_${gitRevision()}"]
@@ -320,14 +320,14 @@ android {
 
             dimension "store"
             isDefault = true
-            versionName "Haty Chat ${versionMajor}.${versionMinor}.${versionPatch}${getGplayVersionSuffix()}"
+            versionName "Vickie ${versionMajor}.${versionMinor}.${versionPatch}${getGplayVersionSuffix()}"
             buildConfigField "String", "SHORT_FLAVOR_DESCRIPTION", "\"G\""
             buildConfigField "String", "FLAVOR_DESCRIPTION", "\"GooglePlay\""
         }
 
         fdroid {
             dimension "store"
-            versionName "Haty Chat ${versionMajor}.${versionMinor}.${versionPatch}${getFdroidVersionSuffix()}"
+            versionName "Vickie ${versionMajor}.${versionMinor}.${versionPatch}${getFdroidVersionSuffix()}"
             buildConfigField "String", "SHORT_FLAVOR_DESCRIPTION", "\"F\""
             buildConfigField "String", "FLAVOR_DESCRIPTION", "\"FDroid\""
         }

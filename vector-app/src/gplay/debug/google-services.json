@@ -115,6 +115,117 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861989736007:android:493626220aaccbad73ab62",
+        "android_client_info": {
+          "package_name": "im.vickie.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861989736007-2a93r7rhihqvkrnjjbk2gjanj8v5nt3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "im.vickie.app",
+            "certificate_hash": "24e36a81c8e4723f91f19fe61da67747ad003b40"
+          }
+        },
+        {
+          "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjdynDJhxrKUxVgSH2WHPDAB8PpSU42RA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861989736007:android:90c0d88557da6d3473ab62",
+        "android_client_info": {
+          "package_name": "im.vickie.app.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861989736007-evm8nm224f24cgqt9djl7a0tl347g42a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "im.vickie.app.debug",
+            "certificate_hash": "41bd63b3b612a15d9ba36a5245c393f2a9b992d1"
+          }
+        },
+        {
+          "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjdynDJhxrKUxVgSH2WHPDAB8PpSU42RA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861989736007:android:3ffe870833b5525f73ab62",
+        "android_client_info": {
+          "package_name": "im.vickie.app.nightly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861989736007-7jd1koglp9v7i5f9u0t2qj67qigfj0ku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "im.vickie.app.nightly",
+            "certificate_hash": "300e8eaa49307954b056e662eed363182dde92a1"
+          }
+        },
+        {
+          "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjdynDJhxrKUxVgSH2WHPDAB8PpSU42RA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

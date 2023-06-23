@@ -8,7 +8,7 @@
 
     <!-- Rageshake configuration -->
     <string name="bug_report_url" translatable="false">https://bugreport.hashi.sbs/api/submit</string>
-    <string name="bug_report_app_name" translatable="false">hatychat-android</string>
+    <string name="bug_report_app_name" translatable="false">vickie-android</string>
     <string name="bug_report_auto_uisi_app_name" translatable="false">element-auto-uisi</string>
 
     <!--
@@ -23,7 +23,7 @@
     <!-- It is the push gateway for UnifiedPush -->
     <string name="default_push_gateway_http_url" translatable="false">https://matrix.gateway.unifiedpush.org/_matrix/push/v1/notify</string>
     <!-- Note: pusher_app_id cannot exceed 64 chars -->
-    <string name="pusher_app_id" translatable="false">im.haty.app.android</string>
+    <string name="pusher_app_id" translatable="false">im.vickie.app.android</string>
 
     <!-- preferred jitsi domain -->
     <string name="preferred_jitsi_domain" translatable="false">meet.hashi.sbs</string>
