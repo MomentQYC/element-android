@@ -81,7 +81,7 @@ def getFirebaseAppId() {
 //    if(taskNames.contains("RustCryptoNightly")) {
 //        return "1:912726360885:android:94fb99347eaa36d100427c"
 //    } else if (taskNames.contains("KotlinCryptoNightly")) {
-        return "1:912726360885:android:efd8545af52a9f9300427c"
+        return "1:861989736007:android:493626220aaccbad73ab62"
 //    } else {
 //        return ""
 //    }
@@ -137,7 +137,7 @@ project.android.buildTypes.all { buildType ->
 ext.abiVersionCodes = ["armeabi-v7a": 1, "arm64-v8a": 2, "x86": 3, "x86_64": 4].withDefault { 0 }
 
 android {
-    namespace "im.vickie.application"
+    namespace "im.vector.application"
     // Due to a bug introduced in Android gradle plugin 3.6.0, we have to specify the ndk version to use
     // Ref: https://issuetracker.google.com/issues/144111441
     ndkVersion "21.3.6528147"
@@ -249,7 +249,7 @@ android {
         debug {
             applicationIdSuffix ".debug"
             signingConfig signingConfigs.debug
-            resValue "string", "app_name", "Element - dbg"
+            resValue "string", "app_name", "Vickie - dbg"
 
             if (project.hasProperty("coverage")) {
                 testCoverageEnabled = coverage == "true"
@@ -257,7 +257,7 @@ android {
         }
 
         release {
-            resValue "string", "app_name", "Element"
+            resValue "string", "app_name", "Vickie"
             postprocessing {
                 // FIXME Set to true.
                 removeUnusedCode false
