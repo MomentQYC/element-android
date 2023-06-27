@@ -270,10 +270,10 @@ class BugReporter @Inject constructor(
 
                 if (!mIsCancelled) {
                     val text = when (reportType) {
-                        ReportType.BUG_REPORT -> "[Element] $bugDescription"
-                        ReportType.SUGGESTION -> "[Element] [Suggestion] $bugDescription"
-                        ReportType.SPACE_BETA_FEEDBACK -> "[Element] [spaces-feedback] $bugDescription"
-                        ReportType.THREADS_BETA_FEEDBACK -> "[Element] [threads-feedback] $bugDescription"
+                        ReportType.BUG_REPORT -> "[Vickie] $bugDescription"
+                        ReportType.SUGGESTION -> "[Vickie] [Suggestion] $bugDescription"
+                        ReportType.SPACE_BETA_FEEDBACK -> "[Vickie] [spaces-feedback] $bugDescription"
+                        ReportType.THREADS_BETA_FEEDBACK -> "[Vickie] [threads-feedback] $bugDescription"
                         ReportType.AUTO_UISI_SENDER,
                         ReportType.AUTO_UISI -> bugDescription
                     }
