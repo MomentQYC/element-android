@@ -37,7 +37,7 @@ ext.versionMinor = 6
 // Note: even values are reserved for regular release, odd values for hotfix release.
 // When creating a hotfix, you should decrease the value, since the current value
 // is the value for the next regular release.
-ext.versionPatch = 2
+ext.versionPatch = 5
 
 static def getGitTimestamp() {
     def cmd = 'git show -s --format=%ct'
@@ -81,7 +81,7 @@ def getFirebaseAppId() {
 //    if(taskNames.contains("RustCryptoNightly")) {
 //        return "1:912726360885:android:94fb99347eaa36d100427c"
 //    } else if (taskNames.contains("KotlinCryptoNightly")) {
-        return "1:912726360885:android:efd8545af52a9f9300427c"
+        return "1:861989736007:android:493626220aaccbad73ab62"
 //    } else {
 //        return ""
 //    }
@@ -145,7 +145,7 @@ android {
     compileSdk versions.compileSdk
 
     defaultConfig {
-        applicationId "im.vector.app"
+        applicationId "im.vickie.app"
         // Set to API 21: see #405
         minSdk versions.minSdk
         targetSdk versions.targetSdk
@@ -159,7 +159,7 @@ android {
         versionCode project.getVersionCode()
 
         // Required for sonar analysis
-        versionName "${versionMajor}.${versionMinor}.${versionPatch}-sonar"
+        versionName "Vickie ${versionMajor}.${versionMinor}.${versionPatch}-sonar"
 
         // Generate a random app task affinity
         manifestPlaceholders = [appTaskAffinitySuffix: "H_${gitRevision()}"]
@@ -249,7 +249,7 @@ android {
         debug {
             applicationIdSuffix ".debug"
             signingConfig signingConfigs.debug
-            resValue "string", "app_name", "Element - dbg"
+            resValue "string", "app_name", "Vickie - dbg"
 
             if (project.hasProperty("coverage")) {
                 testCoverageEnabled = coverage == "true"
@@ -257,7 +257,7 @@ android {
         }
 
         release {
-            resValue "string", "app_name", "Element"
+            resValue "string", "app_name", "Vickie"
             postprocessing {
                 // FIXME Set to true.
                 removeUnusedCode false
@@ -320,14 +320,14 @@ android {
 
             dimension "store"
             isDefault = true
-            versionName "${versionMajor}.${versionMinor}.${versionPatch}${getGplayVersionSuffix()}"
+            versionName "Vickie ${versionMajor}.${versionMinor}.${versionPatch}${getGplayVersionSuffix()}"
             buildConfigField "String", "SHORT_FLAVOR_DESCRIPTION", "\"G\""
             buildConfigField "String", "FLAVOR_DESCRIPTION", "\"GooglePlay\""
         }
 
         fdroid {
             dimension "store"
-            versionName "${versionMajor}.${versionMinor}.${versionPatch}${getFdroidVersionSuffix()}"
+            versionName "Vickie ${versionMajor}.${versionMinor}.${versionPatch}${getFdroidVersionSuffix()}"
             buildConfigField "String", "SHORT_FLAVOR_DESCRIPTION", "\"F\""
             buildConfigField "String", "FLAVOR_DESCRIPTION", "\"FDroid\""
         }
@@ -396,6 +396,7 @@ dependencies {
     implementation project(':vector')
     implementation project(':vector-config')
     implementation project(':library:core-utils')
+    debugImplementation project(':library:external:span')
     debugImplementation project(':library:ui-styles')
     implementation libs.dagger.hilt
     implementation 'androidx.multidex:multidex:2.0.1'

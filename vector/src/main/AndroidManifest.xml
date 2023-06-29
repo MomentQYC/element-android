@@ -199,7 +199,7 @@
 
                 <data android:scheme="http" />
                 <data android:scheme="https" />
-                <data android:host="matrix.to" />
+                <data android:host="go.hashi.sbs" />
                 <data
                     android:host="user"
                     android:scheme="element" />

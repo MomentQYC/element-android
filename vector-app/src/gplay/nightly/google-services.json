@@ -1,34 +1,226 @@
 {
   "project_info": {
-    "project_number": "912726360885",
-    "firebase_url": "https://vector-alpha.firebaseio.com",
-    "project_id": "vector-alpha",
-    "storage_bucket": "vector-alpha.appspot.com"
+    "project_number": "861989736007",
+    "project_id": "haty-chat",
+    "storage_bucket": "haty-chat.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:912726360885:android:4ef8f3a0021e774d",
+        "mobilesdk_app_id": "1:861989736007:android:cf85df888bcd475373ab62",
         "android_client_info": {
-          "package_name": "im.vector.app.nightly"
+          "package_name": "im.haty.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "912726360885-e87n3jva9uoj4vbidvijq78ebg02asv2.apps.googleusercontent.com",
+          "client_id": "861989736007-els230sd9pl0iaegjb15urbtarkbrv72.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "im.haty.app",
+            "certificate_hash": "24e36a81c8e4723f91f19fe61da67747ad003b40"
+          }
+        },
+        {
+          "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAFZX8IhIfgzdOZvxDP_ISO5WYoU7jmQ5c"
+          "current_key": "AIzaSyBjdynDJhxrKUxVgSH2WHPDAB8PpSU42RA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "912726360885-rsae0i66rgqt6ivnudu1pv4tksg9i8b2.apps.googleusercontent.com",
+              "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861989736007:android:e166adecc4c23e4c73ab62",
+        "android_client_info": {
+          "package_name": "im.haty.app.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861989736007-0tsam9r71mv9b51fflaocpovlcfecvrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "im.haty.app.debug",
+            "certificate_hash": "41bd63b3b612a15d9ba36a5245c393f2a9b992d1"
+          }
+        },
+        {
+          "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjdynDJhxrKUxVgSH2WHPDAB8PpSU42RA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861989736007:android:27af94a6d72e596f73ab62",
+        "android_client_info": {
+          "package_name": "im.haty.app.nightly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861989736007-qsu9v2a4rj5nm6r3jap5gp2m8mptdtnq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "im.haty.app.nightly",
+            "certificate_hash": "300e8eaa49307954b056e662eed363182dde92a1"
+          }
+        },
+        {
+          "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjdynDJhxrKUxVgSH2WHPDAB8PpSU42RA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861989736007:android:493626220aaccbad73ab62",
+        "android_client_info": {
+          "package_name": "im.vickie.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861989736007-2a93r7rhihqvkrnjjbk2gjanj8v5nt3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "im.vickie.app",
+            "certificate_hash": "24e36a81c8e4723f91f19fe61da67747ad003b40"
+          }
+        },
+        {
+          "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjdynDJhxrKUxVgSH2WHPDAB8PpSU42RA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861989736007:android:90c0d88557da6d3473ab62",
+        "android_client_info": {
+          "package_name": "im.vickie.app.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861989736007-evm8nm224f24cgqt9djl7a0tl347g42a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "im.vickie.app.debug",
+            "certificate_hash": "41bd63b3b612a15d9ba36a5245c393f2a9b992d1"
+          }
+        },
+        {
+          "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjdynDJhxrKUxVgSH2WHPDAB8PpSU42RA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:861989736007:android:3ffe870833b5525f73ab62",
+        "android_client_info": {
+          "package_name": "im.vickie.app.nightly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "861989736007-7jd1koglp9v7i5f9u0t2qj67qigfj0ku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "im.vickie.app.nightly",
+            "certificate_hash": "300e8eaa49307954b056e662eed363182dde92a1"
+          }
+        },
+        {
+          "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjdynDJhxrKUxVgSH2WHPDAB8PpSU42RA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "861989736007-4hftjp0hldrp471385q5t7j0sr60cf0m.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
