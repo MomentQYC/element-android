@@ -399,7 +399,8 @@ class HomeActivity :
                 )
                 if (!isHandled) {
                     val isMatrixToLink = deepLink.startsWith(PermalinkService.MATRIX_TO_URL_BASE) ||
-                            deepLink.startsWith(MATRIX_TO_CUSTOM_SCHEME_URL_BASE)
+                            deepLink.startsWith(MATRIX_TO_CUSTOM_SCHEME_URL_BASE) ||
+                            deepLink.startsWith(VK_MATRIX_TO_CUSTOM_SCHEME_URL_BASE)
                     MaterialAlertDialogBuilder(this@HomeActivity)
                             .setTitle(R.string.dialog_title_error)
                             .setMessage(if (isMatrixToLink) R.string.permalink_malformed else R.string.universal_link_malformed)
