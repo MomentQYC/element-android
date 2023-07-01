@@ -17,9 +17,9 @@
 package im.vector.app.features.settings
 
 object VectorSettingsUrls {
-    const val HELP = "https://element.io/help"
-    const val COPYRIGHT = "https://element.io/copyright"
-    const val ACCEPTABLE_USE_POLICY = "https://element.io/acceptable-use-policy-terms"
-    const val PRIVACY_POLICY = "https://element.io/privacy"
+    const val HELP = "https://vickie.hashi.sbs/#/android/faq"
+    const val COPYRIGHT = "https://vickie.hashi.sbs/#/copyright"
+    const val ACCEPTABLE_USE_POLICY = "https://vickie.hashi.sbs/#/acceptable-use-policy-terms"
+    const val PRIVACY_POLICY = "https://vickie.hashi.sbs/#/android/privacy"
     const val THIRD_PARTY_LICENSES = "file:///android_asset/open_source_licenses.html"
 }

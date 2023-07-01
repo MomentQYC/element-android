@@ -9,7 +9,7 @@
     <!-- Rageshake configuration -->
     <string name="bug_report_url" translatable="false">https://bugreport.hashi.sbs/api/submit</string>
     <string name="bug_report_app_name" translatable="false">vickie-android</string>
-    <string name="bug_report_auto_uisi_app_name" translatable="false">element-auto-uisi</string>
+    <string name="bug_report_auto_uisi_app_name" translatable="false">vickie-auto-uisi</string>
 
     <!--
         Pusher config for the application
@@ -21,7 +21,7 @@
     <string name="pusher_http_url" translatable="false">https://hatypush.hashi.sbs/_matrix/push/v1/notify</string>
     <!-- Note: default_push_gateway_http_url should have path '/_matrix/push/v1/notify' -->
     <!-- It is the push gateway for UnifiedPush -->
-    <string name="default_push_gateway_http_url" translatable="false">https://matrix.gateway.unifiedpush.org/_matrix/push/v1/notify</string>
+    <string name="default_push_gateway_http_url" translatable="false">https:/upush.hashi.sbs/_matrix/push/v1/notify</string>
     <!-- Note: pusher_app_id cannot exceed 64 chars -->
     <string name="pusher_app_id" translatable="false">im.vickie.app.android</string>
 
