@@ -98,6 +98,9 @@ import org.matrix.android.sdk.api.session.sync.initialSyncStrategy
 import org.matrix.android.sdk.api.util.MatrixItem
 import timber.log.Timber
 import javax.inject.Inject
+import im.vector.app.features.permalink.PermalinkHandler.Companion.VK_MATRIX_TO_CUSTOM_SCHEME_URL_BASE
+import im.vector.app.features.permalink.PermalinkHandler.Companion.VK_ROOM_LINK_PREFIX
+import im.vector.app.features.permalink.PermalinkHandler.Companion.VK_USER_LINK_PREFIX
 
 @Parcelize
 data class HomeActivityArgs(
@@ -375,6 +378,15 @@ class HomeActivity :
                         activeSessionHolder.getSafeActiveSession()?.permalinkService()?.createPermalink(permalinkId)
                     }
                 }
+                deepLink.startsWith(VK_MATRIX_TO_CUSTOM_SCHEME_URL_BASE) -> {
+                    when {
+                        deepLink.startsWith(VK_USER_LINK_PREFIX) -> deepLink.substring(VK_USER_LINK_PREFIX.length)
+                        deepLink.startsWith(VK_ROOM_LINK_PREFIX) -> deepLink.substring(VK_ROOM_LINK_PREFIX.length)
+                        else -> null
+                    }?.let { permalinkId ->
+                        activeSessionHolder.getSafeActiveSession()?.permalinkService()?.createPermalink(permalinkId)
+                    }
+                }
                 else -> deepLink
             }
 
@@ -387,7 +399,8 @@ class HomeActivity :
                 )
                 if (!isHandled) {
                     val isMatrixToLink = deepLink.startsWith(PermalinkService.MATRIX_TO_URL_BASE) ||
-                            deepLink.startsWith(MATRIX_TO_CUSTOM_SCHEME_URL_BASE)
+                            deepLink.startsWith(MATRIX_TO_CUSTOM_SCHEME_URL_BASE) ||
+                            deepLink.startsWith(VK_MATRIX_TO_CUSTOM_SCHEME_URL_BASE)
                     MaterialAlertDialogBuilder(this@HomeActivity)
                             .setTitle(R.string.dialog_title_error)
                             .setMessage(if (isMatrixToLink) R.string.permalink_malformed else R.string.universal_link_malformed)

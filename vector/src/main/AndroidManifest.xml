@@ -206,6 +206,7 @@
                 <data
                     android:host="room"
                     android:scheme="element" />
+                <data android:scheme="vickie" />
 
             </intent-filter>
         </activity-alias>

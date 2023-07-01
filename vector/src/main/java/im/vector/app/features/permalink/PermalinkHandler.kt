@@ -253,6 +253,9 @@ class PermalinkHandler @Inject constructor(
         const val MATRIX_TO_CUSTOM_SCHEME_URL_BASE = "element://"
         const val ROOM_LINK_PREFIX = "${MATRIX_TO_CUSTOM_SCHEME_URL_BASE}room/"
         const val USER_LINK_PREFIX = "${MATRIX_TO_CUSTOM_SCHEME_URL_BASE}user/"
+        const val VK_MATRIX_TO_CUSTOM_SCHEME_URL_BASE = "vickie://"
+        const val VK_ROOM_LINK_PREFIX = "${VK_MATRIX_TO_CUSTOM_SCHEME_URL_BASE}room/"
+        const val VK_USER_LINK_PREFIX = "${VK_MATRIX_TO_CUSTOM_SCHEME_URL_BASE}user/"
     }
 }
 
