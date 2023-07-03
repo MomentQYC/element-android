@@ -23,7 +23,7 @@
     <!-- It is the push gateway for UnifiedPush -->
     <string name="default_push_gateway_http_url" translatable="false">https:/upush.hashi.sbs/_matrix/push/v1/notify</string>
     <!-- Note: pusher_app_id cannot exceed 64 chars -->
-    <string name="pusher_app_id" translatable="false">im.vickie.app.android</string>
+    <string name="pusher_app_id" translatable="false">im.vickie.app</string>
 
     <!-- preferred jitsi domain -->
     <string name="preferred_jitsi_domain" translatable="false">meet.hashi.sbs</string>
@@ -37,7 +37,6 @@
     <!-- Permalink config -->
     <string-array name="permalink_supported_hosts" translatable="false">
         <item>hashi.sbs</item>
-        <item>chat.hashi.icu</item>
         <!-- Regular Element Web instance -->
         <item>app.element.io</item>
         <!-- Other known instances of Element Web -->
