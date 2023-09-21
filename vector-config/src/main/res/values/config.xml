@@ -26,7 +26,7 @@
     <string name="pusher_app_id" translatable="false">im.vickie.app</string>
 
     <!-- preferred jitsi domain -->
-    <string name="preferred_jitsi_domain" translatable="false">meet.hashi.sbs</string>
+    <string name="preferred_jitsi_domain" translatable="false">jitsi.member.fsf.org</string>
 
     <string-array name="room_directory_servers" translatable="false">
         <item>hashi.sbs</item>
@@ -37,6 +37,7 @@
     <!-- Permalink config -->
     <string-array name="permalink_supported_hosts" translatable="false">
         <item>hashi.sbs</item>
+        <item>chat.hashi.sbs</item>
         <!-- Regular Element Web instance -->
         <item>app.element.io</item>
         <!-- Other known instances of Element Web -->
