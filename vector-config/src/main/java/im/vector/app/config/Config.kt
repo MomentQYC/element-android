@@ -71,10 +71,10 @@ object Config {
      * Can be disabled by providing Analytics.Disabled
      */
     val DEBUG_ANALYTICS_CONFIG = Analytics.Enabled(
-            postHogHost = "https://posthog.element.dev",
-            postHogApiKey = "phc_VtA1L35nw3aeAtHIx1ayrGdzGkss7k1xINeXcoIQzXN",
-            policyLink = "https://element.io/cookie-policy",
-            sentryDSN = "https://f6acc9cfc2024641b28c87ad95e73e66@sentry.tools.element.io/49",
+            postHogHost = "https://app.posthog.com",
+            postHogApiKey = "phc_lWFCKxEjO5k2uYZMxOyLcIVs4FLtXnrmzwXCN1JdvOR",
+            policyLink = "https://www.yatserver.com/terms-of-service-and-privacy-policy/",
+            sentryDSN = "https://6ef5c8d8833f91b9cb7926b41cb9a58a@o4505907518701568.ingest.sentry.io/4505907532267520",
             sentryEnvironment = "DEBUG"
     )
 
@@ -83,10 +83,10 @@ object Config {
      * Can be disabled by providing Analytics.Disabled
      */
     val RELEASE_ANALYTICS_CONFIG = Analytics.Enabled(
-            postHogHost = "https://posthog.element.io",
-            postHogApiKey = "phc_Jzsm6DTm6V2705zeU5dcNvQDlonOR68XvX2sh1sEOHO",
-            policyLink = "https://element.io/cookie-policy",
-            sentryDSN = "https://f6acc9cfc2024641b28c87ad95e73e66@sentry.tools.element.io/49",
+            postHogHost = "https://app.posthog.com",
+            postHogApiKey = "phc_lWFCKxEjO5k2uYZMxOyLcIVs4FLtXnrmzwXCN1JdvOR",
+            policyLink = "https://www.yatserver.com/terms-of-service-and-privacy-policy/",
+            sentryDSN = "https://6ef5c8d8833f91b9cb7926b41cb9a58a@o4505907518701568.ingest.sentry.io/4505907532267520",
             sentryEnvironment = "RELEASE"
     )
 
