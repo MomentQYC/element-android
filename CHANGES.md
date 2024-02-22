@@ -1,3 +1,20 @@
+Changes in Element v1.6.12 (2024-02-16)
+=======================================
+
+This update provides important security fixes, please update now.
+
+Security fixes 🔐
+-----------------
+ - Add a check on incoming intent. [CVE-2024-26131](https://www.cve.org/CVERecord?id=CVE-2024-26131) / [GHSA-j6pr-fpc8-q9vm](https://github.com/element-hq/element-android/security/advisories/GHSA-j6pr-fpc8-q9vm)
+ - Store temporary files created for Camera in a dedicated media folder. [CVE-2024-26132](https://www.cve.org/CVERecord?id=CVE-2024-26132) / [GHSA-8wj9-cx7h-pvm4](https://github.com/element-hq/element-android/security/advisories/GHSA-8wj9-cx7h-pvm4)
+
+Bugfixes 🐛
+----------
+ - Switch the position and styles of the 'already have an account' and 'create account' buttons in the login splash screen. Also changes the 'already have an account one' to just say 'sign in'. ([#+update-login-splash-screen](https://github.com/element-hq/element-android/issues/+update-login-splash-screen))
+ - Improve `Event.getClearContent()` and fix assignment issue that may help to decrypt last Event in the room list. ([#8744](https://github.com/element-hq/element-android/issues/8744))
+ - Fix issues about location Event avatar rendering. ([#8749](https://github.com/element-hq/element-android/issues/8749))
+
+
 Changes in Element v1.6.10 (2024-01-09)
 =======================================
 
