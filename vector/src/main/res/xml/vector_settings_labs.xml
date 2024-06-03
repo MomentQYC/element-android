@@ -53,7 +53,7 @@
         android:title="@string/labs_enable_msc3061_share_history" />
 
     <im.vector.app.core.preference.VectorSwitchPreference
-        android:defaultValue="false"
+        android:defaultValue="true"
         android:key="SETTINGS_LABS_ENABLE_LATEX_MATHS"
         android:summary="@string/restart_the_application_to_apply_changes"
         android:title="@string/labs_enable_latex_maths" />
