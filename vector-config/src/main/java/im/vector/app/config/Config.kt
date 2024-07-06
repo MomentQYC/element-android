@@ -80,7 +80,7 @@ object Config {
             postHogHost = "https://app.posthog.com",
             postHogApiKey = "phc_lWFCKxEjO5k2uYZMxOyLcIVs4FLtXnrmzwXCN1JdvOR",
             policyLink = "https://www.yatserver.com/terms-of-service-and-privacy-policy/",
-            sentryDSN = "https://6ef5c8d8833f91b9cb7926b41cb9a58a@o4505907518701568.ingest.sentry.io/4505907532267520",
+            sentryDSN = "https://78bf8a9f9619436c96cdafea9f949ad0@bugtracking.whimsies.org/9",
             sentryEnvironment = "DEBUG"
     )
 
@@ -92,7 +92,7 @@ object Config {
             postHogHost = "https://app.posthog.com",
             postHogApiKey = "phc_lWFCKxEjO5k2uYZMxOyLcIVs4FLtXnrmzwXCN1JdvOR",
             policyLink = "https://www.yatserver.com/terms-of-service-and-privacy-policy/",
-            sentryDSN = "https://6ef5c8d8833f91b9cb7926b41cb9a58a@o4505907518701568.ingest.sentry.io/4505907532267520",
+            sentryDSN = "https://https://78bf8a9f9619436c96cdafea9f949ad0@bugtracking.whimsies.org/9",
             sentryEnvironment = "RELEASE"
     )
 
