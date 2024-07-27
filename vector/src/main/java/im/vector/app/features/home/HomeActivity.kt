@@ -69,6 +69,9 @@ import im.vector.app.features.permalink.PermalinkHandler
 import im.vector.app.features.permalink.PermalinkHandler.Companion.MATRIX_TO_CUSTOM_SCHEME_URL_BASE
 import im.vector.app.features.permalink.PermalinkHandler.Companion.ROOM_LINK_PREFIX
 import im.vector.app.features.permalink.PermalinkHandler.Companion.USER_LINK_PREFIX
+import im.vector.app.features.permalink.PermalinkHandler.Companion.VK_MATRIX_TO_CUSTOM_SCHEME_URL_BASE
+import im.vector.app.features.permalink.PermalinkHandler.Companion.VK_ROOM_LINK_PREFIX
+import im.vector.app.features.permalink.PermalinkHandler.Companion.VK_USER_LINK_PREFIX
 import im.vector.app.features.popup.DefaultVectorAlert
 import im.vector.app.features.popup.PopupAlertManager
 import im.vector.app.features.popup.VerificationVectorAlert
@@ -99,9 +102,6 @@ import org.matrix.android.sdk.api.session.sync.initialSyncStrategy
 import org.matrix.android.sdk.api.util.MatrixItem
 import timber.log.Timber
 import javax.inject.Inject
-import im.vector.app.features.permalink.PermalinkHandler.Companion.VK_MATRIX_TO_CUSTOM_SCHEME_URL_BASE
-import im.vector.app.features.permalink.PermalinkHandler.Companion.VK_ROOM_LINK_PREFIX
-import im.vector.app.features.permalink.PermalinkHandler.Companion.VK_USER_LINK_PREFIX
 
 @Parcelize
 data class HomeActivityArgs(
