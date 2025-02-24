@@ -3742,6 +3742,7 @@ $dokka.location:org.matrix.android.sdk.api.session.room.read/ReadService/setRead
 $dokka.location:org.matrix.android.sdk.api.session.room.reporting////PointingToDeclaration/matrix-sdk-android/org.matrix.android.sdk.api.session.room.reporting/index.html
 $dokka.location:org.matrix.android.sdk.api.session.room.reporting/ReportingService///PointingToDeclaration/matrix-sdk-android/org.matrix.android.sdk.api.session.room.reporting/-reporting-service/index.html
 $dokka.location:org.matrix.android.sdk.api.session.room.reporting/ReportingService/reportContent/#kotlin.String#kotlin.Int#kotlin.String/PointingToDeclaration/matrix-sdk-android/org.matrix.android.sdk.api.session.room.reporting/-reporting-service/report-content.html
+$dokka.location:org.matrix.android.sdk.api.session.room.reporting/ReportingService/reportRoom/#kotlin.String/PointingToDeclaration/matrix-sdk-android/org.matrix.android.sdk.api.session.room.reporting/-reporting-service/report-room.html
 $dokka.location:org.matrix.android.sdk.api.session.room.send////PointingToDeclaration/matrix-sdk-android/org.matrix.android.sdk.api.session.room.send/index.html
 $dokka.location:org.matrix.android.sdk.api.session.room.send/DraftService///PointingToDeclaration/matrix-sdk-android/org.matrix.android.sdk.api.session.room.send/-draft-service/index.html
 $dokka.location:org.matrix.android.sdk.api.session.room.send/DraftService/deleteDraft/#/PointingToDeclaration/matrix-sdk-android/org.matrix.android.sdk.api.session.room.send/-draft-service/delete-draft.html
